@@ -1,0 +1,284 @@
+﻿body{
+    margin: 0px;
+    font-family: Helvetica, "Pingfang SC", "Microsoft YaHei", Verdana, Arial, Tahoma, sans-serif;
+}
+
+
+.header{
+    height: 70px;
+    width: 1100px;
+    background-color:#ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.hd{
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+}
+
+
+.pic{
+    background-image: url(youzan.png);
+    height: 25px;
+    width: 72px;
+    left: 20px;
+    top: 25px;
+    position: relative;
+}
+
+
+.wenzis{
+    position: relative;
+    left: 120px;
+    top: -3px;
+}
+
+.wenzi{
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 6px;
+    color:#999;
+    position: relative;
+    right: 30px;
+    width: 100px;
+}
+
+.qingchu{
+    color: red;
+}
+
+.qingchus{
+    color: black;
+}
+
+
+
+.lie{
+    position: relative;
+    left:-230px;
+    float: right;
+    font-size: 15px;
+}
+
+
+
+.navred{
+    margin: 20px 20px;
+    padding-right: 16px;
+}
+
+
+
+.nav{
+    margin: 20px 20px;
+    padding-right: 16px;
+}
+
+
+.nav:hover{
+    color: red;
+}
+
+a{
+    text-decoration : none
+}
+
+.log{
+    position: relative;
+    left:500px;
+    top: -5px;
+    float: right;
+
+    width: 80px;
+    height: 30px;
+    line-height: 28px;
+    display: inline-block;
+    border: 1px solid #2B90ED;
+    text-align: center;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.red{
+    position: relative;
+    left:680px;
+    top: -5px;
+    float: right;
+
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #2B90ED;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.log:hover{
+    background-color:#6495ED;
+    color: white;
+}
+
+.red:hover{
+    background-color:#6495ED;
+    color:white;
+}
+
+.xia1{
+    color: #2B90ED;
+}
+
+.xia2{
+    color: #ffffff;
+}
+
+
+.datu{
+    width: auto;
+    height:450px;
+    position: relative;
+    background-image: url(http://img.yzcdn.cn/public_files/2018/05/29/topbanner1@2x.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+.jk{
+    position: relative;
+    width: 1100px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3{
+    font-size: 44px;
+    line-height: 62px;
+    left: 300px;
+    top: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.font{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 55px;
+    top: 70px;
+}
+
+.bont{
+    width: 160px;
+    height: 40px;
+    line-height: 18px;
+    display: inline-block;
+    text-align: center;
+    background: #38f;
+    color: #fff;
+    left: 300px;
+    top: 60px;
+    line-height: 40px
+}
+
+.bont:hover{
+    background:red;
+}
+
+.fontbott{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 55px;
+    left: 300px;
+    top: 80px;
+}
+
+
+.kuangkuang{
+   position: relative;
+   top:100px;
+}
+
+.picpic{
+    height: 650px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h3{
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-top: 70px;
+}
+
+.limian{
+    max-width: 1100px;                          /*Flex是Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。*/
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+    display: flex;                      
+}
+
+.limian-left{
+    display: inline;
+}
+
+
+.limian-right{
+    display: inline;
+}
+
+.wcard-section {
+    margin-bottom: 28px;
+}
+
+
+.wcard-sectitle {
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.wcard-secsummary {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+img{
+    margin-left: 80px;
+}
+
+
+.button {
+    font-size: 14px;
+    padding: 10px 42px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+.button{
+    background-color: #38f;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 50px;
+}
+
+.button2{
+    background-color:#fff;
+    color: #38f;
+    font-size: 14px;
+    padding: 12px 50px;
+    border: 1px solid #38f;
+}
