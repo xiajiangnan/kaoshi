@@ -57,7 +57,7 @@
 
 .lie{
     position: relative;
-    left:-230px;
+    left:-200px;
     float: right;
     font-size: 15px;
 }
@@ -66,18 +66,16 @@
 
 .navred{
     margin: 20px 20px;
-    padding-right: 16px;
 }
 
 
 
 .nav{
     margin: 20px 20px;
-    padding-right: 16px;
 }
 
 
-.nav:hover{
+.qingchus:hover{
     color: red;
 }
 
@@ -121,23 +119,23 @@ a{
 
 
 .log:hover{
-    background-color:#6495ED;
-    color: white;
+    background-color: #2B90ED;
 }
 
-.red:hover{
-    background-color:#6495ED;
-    color:white;
+.xia1:hover{
+    color: #fff;
 }
 
 .xia1{
+    display: inline-block;
     color: #2B90ED;
+    width: 80px;
+    height: 30px;
 }
 
 .xia2{
     color: #ffffff;
 }
-
 
 .datu{
     width: auto;
